@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header,
+.sign-up, 
+.footer {
+    padding: 0 100px 100px 100px;
+}
+
+.information,
+.quotation {
+    padding: 0 150px 100px 150px;
+}
+
+.header,
+.hero {
+    background-color: #1F2937;
+}
+
+.hero-text,
+.logo-link {
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+button {
+    color: #E5E7Eb;
+    background-color: #3882F6 ;
+}
+/* ^^^^ multi selection */
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-link {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo-link > p {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 12px;
+}
+
+.logo-link > ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0 15px 0 0;
+}
