@@ -30,7 +30,7 @@ button {
     color: #E5E7Eb;
     background-color: #3882F6 ;
 }
-/* ^^^^ multi selection */
+/* ^^^^ multi selection ^^^^ */
 
 .header {
     display: flex;
@@ -40,18 +40,44 @@ button {
 .logo-link {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 
 }
 
 .logo-link > p {
     font-size: 24px;
     color: #F9FAF8;
-    margin: 12px;
 }
 
 .logo-link > ul {
     display: flex;
+    align-items: center;
     list-style: none;
     gap: 20px;
-    padding: 0 15px 0 0;
+}
+
+.hero {
+    display: flex;
+    gap: 20px
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-signup {
+    border-radius: 8px;
+    color: #F9FAF8;
+    width: 125px;
+    height: 35px;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    min-width: 500px;
+    min-height: auto;
 }
