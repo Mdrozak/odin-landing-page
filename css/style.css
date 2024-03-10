@@ -4,8 +4,7 @@ body {
     margin: 0;
 }
 
-.header,
-.footer {
+.header {
     padding: 0 100px 100px 100px;
 }
 
@@ -13,7 +12,12 @@ body {
     padding: 0 150px 100px 150px;
 }
 
+.footer {
+    padding: 20px 10px 20px 10px;
+}
+
 .header,
+.footer,
 .hero {
     background-color: #1F2937;
 }
@@ -166,7 +170,7 @@ button {
     background-color: #3882F6;
     display: flex;
     border-radius: 5px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .sign-text {
@@ -188,4 +192,12 @@ button {
     align-self: center;
     border: 2px solid #F9FAF8;
     margin: 25px;
+}
+
+/* \/\/\/ Footer section \/\/\/ */
+
+.footer {
+    color: #F9FAF8;
+    height: 50px;
+    text-align: center;
 }
