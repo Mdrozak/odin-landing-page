@@ -10,8 +10,7 @@ body {
     padding: 0 100px 100px 100px;
 }
 
-.information,
-.quotation {
+.information {
     padding: 0 150px 100px 150px;
 }
 
@@ -29,9 +28,11 @@ body {
 button {
     color: #E5E7Eb;
     background-color: #3882F6 ;
+    cursor: pointer;
+    text-align: center;
 }
 /* ^^^^ multi selection ^^^^ */
-
+/* \/\/\/ Header class div \/\/\/ */
 .header {
     display: flex;
     flex-direction: column;
@@ -68,16 +69,78 @@ button {
     margin: 0;
 }
 
-.hero-signup {
+.hero-signup,
+.product-signup {
     border-radius: 8px;
-    color: #F9FAF8;
     width: 125px;
     height: 35px;
+    font-weight: bold;
+    border-style: none;
+    
+}
+.hero-signup:hover,
+.product-signup:hover {
+    background-color: rgb(100, 100, 200);
 }
 
-img {
-    width: 50%;
-    height: 50%;
+.hero-link {
+    display: flex;
+    width: 100%;
+    height: 100%;
     min-width: 500px;
     min-height: auto;
+} 
+
+.hero-img {
+    display: flex;
+    min-width: 500px;
+    min-height: auto;
+}
+
+/* \/\/\/ information class div \/\/\/ */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.ilustrations {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+}
+
+.ilustration {
+    min-width: 70px;
+    width: 100%;
+    height: auto;
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+}
+
+.sub-ilus {
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px 0 10px;
+    padding: 10px;
+    cursor: pointer;
+    min-width: 125px;
+    min-height: auto;
+}
+
+/* \/\/\/ Quotation class section \/\/\/ */
+
+.quotation {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px 100px 150px;
 }
