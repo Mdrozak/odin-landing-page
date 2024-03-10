@@ -5,11 +5,11 @@ body {
 }
 
 .header {
-    padding: 0 100px 100px 100px;
+    padding: 0 200px 200px 200px;
 }
 
 .information {
-    padding: 0 150px 100px 150px;
+    padding: 0 250px 100px 250px;
 }
 
 .footer {
@@ -29,7 +29,7 @@ body {
 }
 
 .quotation {
-    padding: 100px 150px 100px 150px;
+    padding: 100px 250px 100px 250px;
 }
 
 button {
@@ -105,6 +105,8 @@ li {
     display: flex;
     min-width: 500px;
     min-height: auto;
+    max-width: 800px;
+    max-height: 800px;
 }
 
 /* \/\/\/ information class div \/\/\/ */
@@ -120,6 +122,7 @@ li {
     display: flex;
     text-align: left;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .ilustration {
@@ -170,7 +173,7 @@ li {
 /* \/\/\/ Sign up class section \/\/\/ */
 
 .sign-up {
-    padding: 75px 100px 75px 100px;
+    padding: 75px 200px 75px 200px;
     min-width: 500px;
 }
 .sign-container {
